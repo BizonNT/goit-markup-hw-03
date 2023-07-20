@@ -216,9 +216,12 @@ address {
 /*  --------- Main streams section --------- */
 
 .streams {
-  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.streams .container {
+  display: flex;
 }
 
 .visually-hidden {
