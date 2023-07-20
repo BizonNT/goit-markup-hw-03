@@ -163,6 +163,7 @@ address {
 
 .cloud {
   color: var(--cloud);
+  margin-bottom: 0px;
 }
 
 .footer-text {
