@@ -64,8 +64,7 @@ img {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header .container {
@@ -99,6 +98,10 @@ img {
 .header-navigation-list {
   display: flex;
   gap: 40px;
+}
+
+.header-navigation-item {
+    padding: 24px 0;
 }
 
 .header-navigation-link {
@@ -147,6 +150,7 @@ address {
 }
 
 .footer-logo-text {
+  display: inline-block; 
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -154,7 +158,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
