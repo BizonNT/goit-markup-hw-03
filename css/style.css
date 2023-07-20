@@ -45,7 +45,6 @@ img {
 }
 
 .container {
-  display: flex;
   flex-direction: column;
   max-width: 1158px;
   padding: 0 15px;
@@ -64,10 +63,10 @@ img {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
-
 }
 
 .header .container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -100,16 +99,14 @@ img {
   gap: 40px;
 }
 
-.header-navigation-item {
-    padding: 24px 0;
-}
-
 .header-navigation-link {
+  display: block;
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-navigation-link:hover,
@@ -145,12 +142,8 @@ address {
   padding: 100px 0;
 }
 
-.footer .container {
-  align-items: flex-start;
-}
-
 .footer-logo-text {
-  display: inline-block; 
+  display: inline-block;
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -184,6 +177,7 @@ address {
 }
 
 .hero .container {
+  display: flex;
   align-items: center;
 }
 
@@ -222,6 +216,7 @@ address {
 /*  --------- Main streams section --------- */
 
 .streams {
+  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -269,6 +264,7 @@ address {
 /*  --------- Our activities section --------- */
 
 .activities {
+  display: flex;
   padding-bottom: 120px;
 }
 
@@ -302,6 +298,7 @@ address {
 }
 
 .team .container {
+  display: flex;
   flex-direction: column;
 }
 
@@ -370,8 +367,7 @@ address {
 }
 
 .portfolio-menu-list {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
